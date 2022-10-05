@@ -8,6 +8,9 @@ class Methanation:
         return ((1 - self.ch4_frac_product) / self.sigma * 1/5) * 100
     def h2_frac_product(self):
         return  ((1 - self.ch4_frac_product) * self.sigma * 4/5) * 100
+        ""
+        h2 
+        ""
     
 cat_methanation = {
     "rct_enthalpy": -165,
